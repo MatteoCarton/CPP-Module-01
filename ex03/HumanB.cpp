@@ -18,7 +18,7 @@ void HumanB::attack()
     if (_weapon == NULL)
     {
         std::cout   << BOLD << CYAN << _name
-                    << MAGENTA << " doesn't have an weapon ❌" << std::endl;
+                    << MAGENTA << " doesn't have a weapon ❌" << RESET << std::endl;
         return ;
     }
 
